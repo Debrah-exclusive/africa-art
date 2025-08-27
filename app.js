@@ -573,40 +573,40 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 break;
             case 'philosophy':
-                question = generatePhilosophyQuestion(currentQuizItem);
-                if (question.text) {
-                    question = question.text;
-                    correctAnswer = question.correct;
-                    distractors = question.distractors;
+                const philosophyQ = generatePhilosophyQuestion(currentQuizItem);
+                if (philosophyQ && philosophyQ.text) {
+                    question = philosophyQ.text;
+                    correctAnswer = philosophyQ.correct;
+                    distractors = philosophyQ.distractors;
                 }
                 break;
             case 'aesthetics':
-                question = generateAestheticsQuestion(currentQuizItem);
-                if (question.text) {
-                    question = question.text;
-                    correctAnswer = question.correct;
-                    distractors = question.distractors;
+                const aestheticsQ = generateAestheticsQuestion(currentQuizItem);
+                if (aestheticsQ && aestheticsQ.text) {
+                    question = aestheticsQ.text;
+                    correctAnswer = aestheticsQ.correct;
+                    distractors = aestheticsQ.distractors;
                 }
                 break;
             case 'cultural_context':
-                question = generateCulturalContextQuestion(currentQuizItem);
-                if (question.text) {
-                    question = question.text;
-                    correctAnswer = question.correct;
-                    distractors = question.distractors;
+                const contextQ = generateCulturalContextQuestion(currentQuizItem);
+                if (contextQ && contextQ.text) {
+                    question = contextQ.text;
+                    correctAnswer = contextQ.correct;
+                    distractors = contextQ.distractors;
                 }
                 break;
             case 'symbolism':
-                question = generateSymbolismQuestion(currentQuizItem);
-                if (question.text) {
-                    question = question.text;
-                    correctAnswer = question.correct;
-                    distractors = question.distractors;
+                const symbolismQ = generateSymbolismQuestion(currentQuizItem);
+                if (symbolismQ && symbolismQ.text) {
+                    question = symbolismQ.text;
+                    correctAnswer = symbolismQ.correct;
+                    distractors = symbolismQ.distractors;
                 }
                 break;
         }
 
-        if (question) {
+        if (question && correctAnswer && Array.isArray(distractors) && distractors.length > 0) {
             const answers = shuffleArray([correctAnswer, ...distractors]);
             displayQuestion(question, answers, correctAnswer);
             quizSet.push({ question, answers, correctAnswer, item: currentQuizItem });
