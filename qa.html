@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Art Q&A</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="header-title">African Art Q&A</h1>
+            <nav>
+                <a href="index.html" class="nav-link">Timeline</a>
+                <a href="qa.html" class="nav-link active">Q&A</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="artists.html" class="nav-link">Artists</a>
+                <a href="timeline.html" class="nav-link">Timeline</a>
+                <a href="glossary.html" class="nav-link">Glossary</a>
+                <a href="analysis.html" class="nav-link">Analysis Tool</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="qa-controls">
+            <div class="mode-toggles">
+                <label for="modeToggle">Likely-Exam Only</label>
+                <label class="switch">
+                    <input type="checkbox" id="modeToggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <button id="newQuestionBtn">New Question</button>
+            <button id="exportCsvBtn">Export Quiz to CSV</button>
+        </div>
+        <div class="quiz-container">
+            <div id="questionContainer" class="question-container">
+                <h2 id="questionText"></h2>
+                <div id="answersContainer" class="answers-container" role="radiogroup"></div>
+            </div>
+            <div id="feedbackContainer" class="feedback-container"></div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

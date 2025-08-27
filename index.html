@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Art Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="header-title">African Art Timeline</h1>
+            <nav>
+                <a href="index.html" class="nav-link active">Home</a>
+                 <a href="timeline.html" class="nav-link">Timeline</a>
+                <a href="qa.html" class="nav-link">Q&A</a>
+                <a href="education.html" class="nav-link">Education</a>
+                <a href="artists.html" class="nav-link">Artists</a>
+                <a href="glossary.html" class="nav-link">Glossary</a>
+                <a href="analysis.html" class="nav-link">Analysis Tool</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="hero-title">Explore the Rich Heritage of African Art</h2>
+                <p class="hero-description">Journey through centuries of artistic expression, cultural traditions, and creative innovation across the African continent. Discover the stories, techniques, and meanings behind Africa's diverse artistic legacy.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="artworkCount">0</span>
+                        <span class="stat-label">Artworks</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Cultures</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2000+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Access Section -->
+        <section class="quick-access-section">
+            <h2>Explore African Art</h2>
+            <div class="quick-access-grid">
+                <a href="timeline.html" class="access-card">
+                    <div class="card-icon">📅</div>
+                    <h3>Interactive Timeline</h3>
+                    <p>Explore historical periods and cultural movements in African art</p>
+                </a>
+                <a href="artists.html" class="access-card">
+                    <div class="card-icon">👥</div>
+                    <h3>Artists & Roles</h3>
+                    <p>Learn about traditional and contemporary African artists</p>
+                </a>
+                <a href="education.html" class="access-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Educational Content</h3>
+                    <p>Discover philosophy, aesthetics, and analysis methods</p>
+                </a>
+                <a href="qa.html" class="access-card">
+                    <div class="card-icon">🧠</div>
+                    <h3>Interactive Quiz</h3>
+                    <p>Test your knowledge with comprehensive Q&A sessions</p>
+                </a>
+                <a href="analysis.html" class="access-card">
+                    <div class="card-icon">🔍</div>
+                    <h3>Analysis Tool</h3>
+                    <p>Use guided questions for visual analysis and appreciation</p>
+                </a>
+                <a href="glossary.html" class="access-card">
+                    <div class="card-icon">📖</div>
+                    <h3>Glossary</h3>
+                    <p>Browse key terms and concepts in African art</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Content Section -->
+        <section class="featured-section">
+            <h2>Featured Artworks</h2>
+            <div class="featured-grid" id="featuredArtworks">
+                <!-- Featured artworks will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Interactive Timeline Section -->
+        <section class="timeline-section">
+            <h2>African Art Timeline</h2>
+            <p class="section-description">Explore artworks chronologically and discover the evolution of African artistic traditions.</p>
+            
+            <div class="controls-panel">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search artworks, artists, or keywords...">
+                </div>
+                <div class="filters-container">
+                    <div class="filter-group">
+                        <label for="typeFilter">Type:</label>
+                        <select id="typeFilter">
+                            <option value="all">All</option>
+                            <option value="artwork">Artwork</option>
+                            <option value="concept">Concept</option>
+                            <option value="movement">Movement</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="centuryFilter">Century:</label>
+                        <select id="centuryFilter">
+                            <option value="all">All</option>
+                        </select>
+                    </div>
+                    <div class="switch-label">
+                        <span class="label-text">Likely Exam Only:</span>
+                        <label class="switch">
+                            <input type="checkbox" id="likelyExamToggle">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-container">
+                <div id="timeline"></div>
+            </div>
+        </section>
+    </main>
+
+    <div class="sidebar" id="sidebar">
+        <button id="closeSidebar">&times;</button>
+        <div id="sidebar-content"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

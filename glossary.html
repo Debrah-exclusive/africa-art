@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Art Glossary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>African Art Glossary</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                 <a href="timeline.html">Timeline</a>
+                <a href="qa.html">Q&A Quiz</a>
+                <a href="education.html">Education</a>
+                <a href="artists.html">Artists</a>
+                <a href="glossary.html" class="active">Glossary</a>
+                <a href="analysis.html">Analysis Tool</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="glossary-search">
+                <input type="text" id="search-input" placeholder="Search terms..." />
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All Terms</button>
+                    <button class="filter-btn" data-category="aesthetic_terms">Aesthetic Terms</button>
+                    <button class="filter-btn" data-category="cultural_concepts">Cultural Concepts</button>
+                    <button class="filter-btn" data-category="philosophical_terms">Philosophical Terms</button>
+                    <button class="filter-btn" data-category="art_categories">Art Categories</button>
+                </div>
+            </div>
+
+            <section class="glossary-section">
+                <h2>Aesthetic Terms</h2>
+                <div class="glossary-category" id="aesthetic_terms">
+                    <!-- Terms will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="glossary-section">
+                <h2>Cultural Concepts</h2>
+                <div class="glossary-category" id="cultural_concepts">
+                    <!-- Terms will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="glossary-section">
+                <h2>Philosophical Terms</h2>
+                <div class="glossary-category" id="philosophical_terms">
+                    <!-- Terms will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="glossary-section">
+                <h2>Art Categories</h2>
+                <div class="glossary-category" id="art_categories">
+                    <!-- Terms will be populated by JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="glossary.js"></script>
+</body>
+</html>

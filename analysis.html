@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Analysis Tool - African Art Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>African Art Timeline</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="timeline.html">Timeline</a>
+                <a href="qa.html">Q&A Quiz</a>
+                <a href="education.html">Education</a>
+                <a href="artists.html">Artists</a>
+                <a href="glossary.html">Glossary</a>
+                <a href="analysis.html" class="active">Analysis Tool</a>
+            </nav>
+        </header>
+
+        <main>
+            <header class="page-header">
+                <h1>Visual Analysis Tool</h1>
+                <p class="page-description">
+                    Use this guided analysis framework to develop your aesthetic appreciation and critical observation skills for African art, based on the methodologies from UGRC 221.
+                </p>
+            </header>
+
+            <div class="analysis-container">
+                <!-- Artwork Selection -->
+                <section class="artwork-selection">
+                    <h2>Select an Artwork</h2>
+                    <div class="selection-controls">
+                        <select id="artwork-selector" class="artwork-dropdown">
+                            <option value="">Choose an artwork to analyze...</option>
+                        </select>
+                        <button id="random-artwork" class="btn-secondary">Analyze Random Artwork</button>
+                    </div>
+                </section>
+
+                <!-- Selected Artwork Display -->
+                <section id="selected-artwork" class="artwork-display" style="display: none;">
+                    <div class="artwork-info">
+                        <div class="artwork-image-container">
+                            <img id="artwork-image" src="" alt="" class="artwork-image">
+                        </div>
+                        <div class="artwork-details">
+                            <h3 id="artwork-title"></h3>
+                            <div class="artwork-metadata">
+                                <p><strong>Culture/Artist:</strong> <span id="artwork-culture"></span></p>
+                                <p><strong>Date:</strong> <span id="artwork-date"></span></p>
+                                <p><strong>Material:</strong> <span id="artwork-material"></span></p>
+                                <p><strong>Location:</strong> <span id="artwork-location"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Analysis Framework -->
+                <section id="analysis-framework" class="analysis-sections" style="display: none;">
+                    <h2>Guided Analysis Framework</h2>
+                    
+                    <!-- Step 1: Initial Observation -->
+                    <div class="analysis-step">
+                        <h3>Step 1: Initial Observation</h3>
+                        <div class="question-group">
+                            <div class="question">
+                                <label>What is your first impression of this artwork?</label>
+                                <textarea id="first-impression" placeholder="Describe your immediate reaction and feelings..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>What draws your attention first?</label>
+                                <textarea id="attention-focus" placeholder="Identify the most prominent visual elements..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Formal Analysis -->
+                    <div class="analysis-step">
+                        <h3>Step 2: Formal Analysis</h3>
+                        <div class="question-group">
+                            <div class="question">
+                                <label>Describe the visual elements (line, shape, color, texture, form):</label>
+                                <textarea id="visual-elements" placeholder="Analyze the formal qualities of the artwork..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>How are these elements organized (composition, balance, rhythm)?</label>
+                                <textarea id="composition" placeholder="Discuss the arrangement and relationship of elements..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>What materials and techniques were used? How do they affect the artwork?</label>
+                                <textarea id="materials-technique" placeholder="Consider the craftsmanship and material choices..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Cultural Context -->
+                    <div class="analysis-step">
+                        <h3>Step 3: Cultural Context</h3>
+                        <div class="question-group">
+                            <div class="question">
+                                <label>What cultural or spiritual significance might this artwork have?</label>
+                                <textarea id="cultural-significance" placeholder="Consider the role in society, rituals, or beliefs..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>How does this artwork reflect African aesthetic principles?</label>
+                                <textarea id="aesthetic-principles" placeholder="Think about rhythm, symbolism, functionality, and meaning..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>What does this tell us about the society that created it?</label>
+                                <textarea id="social-context" placeholder="Consider social structures, values, and daily life..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Symbolic Analysis -->
+                    <div class="analysis-step">
+                        <h3>Step 4: Symbolic Analysis</h3>
+                        <div class="question-group">
+                            <div class="question">
+                                <label>What symbols or motifs can you identify?</label>
+                                <textarea id="symbols-motifs" placeholder="Look for recurring patterns, figures, or decorative elements..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>What might these symbols represent or communicate?</label>
+                                <textarea id="symbolic-meaning" placeholder="Consider possible meanings and messages..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5: Aesthetic Evaluation -->
+                    <div class="analysis-step">
+                        <h3>Step 5: Aesthetic Evaluation</h3>
+                        <div class="question-group">
+                            <div class="question">
+                                <label>How does this artwork demonstrate African aesthetic values?</label>
+                                <textarea id="aesthetic-values" placeholder="Consider functionality, symbolism, rhythm, and community meaning..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>What makes this artwork successful or powerful?</label>
+                                <textarea id="artistic-success" placeholder="Evaluate its effectiveness in conveying meaning and beauty..."></textarea>
+                            </div>
+                            <div class="question">
+                                <label>How has your understanding of the artwork changed through this analysis?</label>
+                                <textarea id="understanding-change" placeholder="Reflect on your learning process and new insights..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analysis Actions -->
+                    <div class="analysis-actions">
+                        <button id="save-analysis" class="btn-primary">Save Analysis</button>
+                        <button id="print-analysis" class="btn-secondary">Print Analysis</button>
+                        <button id="clear-analysis" class="btn-danger">Clear All Responses</button>
+                    </div>
+                </section>
+
+                <!-- Analysis Tips -->
+                <section class="analysis-tips">
+                    <h2>Analysis Tips</h2>
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <h4>Look Closely</h4>
+                            <p>Spend time observing details. African art often contains layers of meaning in small elements.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Consider Function</h4>
+                            <p>Many African artworks serve practical, spiritual, or social functions beyond decoration.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Think Symbolically</h4>
+                            <p>Colors, patterns, and forms often carry symbolic meanings related to beliefs and values.</p>
+                        </div>
+                        <div class="tip-card">
+                            <h4>Appreciate Rhythm</h4>
+                            <p>African aesthetics often emphasize rhythm and repetition rather than realistic representation.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="analysis.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive African Art Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>African Art Timeline</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="timeline.html" class="active">Timeline</a>
+                <a href="qa.html">Q&A Quiz</a>
+                <a href="education.html">Education</a>
+                <a href="artists.html">Artists</a>
+                <a href="glossary.html">Glossary</a>
+                <a href="analysis.html">Analysis Tool</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="timeline-controls">
+                <div class="control-group">
+                    <label for="periodFilter">Historical Period:</label>
+                    <select id="periodFilter">
+                        <option value="all">All Periods</option>
+                        <option value="ancient">Ancient Period (3000 BCE - 500 CE)</option>
+                        <option value="medieval">Medieval Period (500 - 1500 CE)</option>
+                        <option value="early-modern">Early Modern (1500 - 1800 CE)</option>
+                        <option value="colonial">Colonial Period (1800 - 1960 CE)</option>
+                        <option value="contemporary">Contemporary (1960 - Present)</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="regionFilter">Region:</label>
+                    <select id="regionFilter">
+                        <option value="all">All Regions</option>
+                        <option value="north">North Africa</option>
+                        <option value="west">West Africa</option>
+                        <option value="east">East Africa</option>
+                        <option value="central">Central Africa</option>
+                        <option value="southern">Southern Africa</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="movementFilter">Cultural Movement:</label>
+                    <select id="movementFilter">
+                        <option value="all">All Movements</option>
+                        <option value="kingdoms">African Kingdoms</option>
+                        <option value="islamic">Islamic Influence</option>
+                        <option value="christian">Christian Art</option>
+                        <option value="colonial-resistance">Colonial Resistance</option>
+                        <option value="independence">Independence Movements</option>
+                        <option value="contemporary-art">Contemporary Art</option>
+                    </select>
+                </div>
+                
+                <button id="resetFilters" class="reset-btn">Reset Filters</button>
+            </section>
+
+            <section class="timeline-visualization">
+                <div class="timeline-header">
+                    <h2>African Art Through History</h2>
+                    <p>Explore the rich chronological development of African art, from ancient civilizations to contemporary movements.</p>
+                </div>
+                
+                <div class="timeline-container-interactive" id="timelineContainer">
+                    <!-- Timeline periods will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="period-details" id="periodDetails" style="display: none;">
+                <div class="details-content">
+                    <button class="close-details" id="closeDetails">&times;</button>
+                    <h3 id="detailsTitle"></h3>
+                    <div id="detailsContent"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="timeline.js"></script>
+</body>
+</html>

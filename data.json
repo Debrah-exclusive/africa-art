@@ -1,0 +1,1165 @@
+{
+  "course": {
+    "title": "UGRC 221 African Art, Its Philosophy and Criticism",
+    "source": "UGRC 221 - African Art-merged.pdf",
+    "lastUpdated": "2025-08-27"
+  },
+  "educational_content": {
+    "philosophy": {
+      "title": "Philosophy of African Art",
+      "description": "African art is deeply rooted in the philosophical beliefs and worldviews of African societies. It serves as a means of expressing cultural values, spiritual beliefs, and social structures.",
+      "key_concepts": [
+        "Art as documentation of ideas and histories",
+        "Symbolic representation over photographic likeness",
+        "Rhythm and meaning prioritized in aesthetic value",
+        "Integration of art with daily life and spiritual practices"
+      ]
+    },
+    "aesthetics": {
+      "title": "African Aesthetic Principles",
+      "description": "African aesthetics emphasize functionality, symbolism, and visual pleasure rather than mere decoration.",
+      "criteria": [
+        "Functionality - art serves practical and spiritual purposes",
+        "Symbolism - objects carry deep cultural meanings",
+        "Visual pleasure - aesthetic appeal through rhythm and pattern",
+        "Cultural authenticity - adherence to traditional forms and meanings"
+      ]
+    },
+    "art_types": {
+      "sculpture": "Three-dimensional works in wood, metal, stone, and clay",
+      "textiles": "Woven, dyed, and embroidered fabrics with cultural significance",
+      "masks": "Ceremonial and ritual objects representing spirits and ancestors",
+      "pottery": "Functional and ceremonial vessels with decorative elements",
+      "beadwork": "Decorative and symbolic adornment using glass and natural beads",
+      "metalwork": "Bronze, brass, and iron objects for ceremonial and practical use",
+      "architecture": "Traditional building styles and decorative elements",
+      "performance": "Dance, music, and theatrical expressions of cultural values"
+    },
+    "materials": {
+      "traditional": ["Wood", "Clay/Terracotta", "Metal (Bronze, Brass, Iron)", "Ivory", "Stone", "Natural fibers", "Animal hide", "Beads", "Cowrie shells"],
+      "modern": ["Glass beads", "Synthetic materials", "Acrylic paints", "Industrial metals"]
+    },
+    "artist_roles": {
+      "traditional": {
+        "description": "Traditional African artists were skilled craftspeople integrated into community life",
+        "characteristics": [
+          "Learned through apprenticeship systems",
+          "Often hereditary professions",
+          "Created functional and ceremonial objects",
+          "Worked within established cultural traditions"
+        ],
+        "gender_roles": {
+          "male_artists": "Typically worked with metal, wood, and stone",
+          "female_artists": "Specialized in clay, textiles, and beadwork"
+        }
+      },
+      "contemporary": {
+        "description": "Modern African artists blend traditional techniques with contemporary themes",
+        "characteristics": [
+          "Formal art education",
+          "Individual artistic expression",
+          "Global art market participation",
+          "Cultural preservation and innovation"
+        ]
+      }
+     },
+     "glossary": {
+       "aesthetic_terms": {
+         "rhythm": "Repetitive visual elements that create movement and unity in African art",
+         "symbolism": "Use of objects, colors, and forms to represent deeper cultural meanings",
+         "functionality": "The practical purpose that art serves beyond mere decoration",
+         "visual_pleasure": "Aesthetic appeal achieved through harmony, balance, and cultural beauty standards"
+       },
+       "cultural_concepts": {
+         "ancestral_art": "Artworks created to honor, communicate with, or represent deceased ancestors",
+         "masquerade": "Ceremonial performance involving masks, costumes, and dance to embody spirits",
+         "regalia": "Ceremonial clothing and accessories that indicate status, power, or spiritual authority",
+         "assemblage": "Art form combining various materials and objects into a unified composition",
+         "appliqué": "Textile technique where pieces of fabric are sewn onto a larger base fabric",
+         "terracotta": "Fired clay used for pottery and sculpture, common in African art"
+       },
+       "philosophical_terms": {
+         "cosmology": "Worldview and beliefs about the nature of the universe and spiritual realm",
+         "spiritual_continuity": "Belief that connection exists between living and deceased through art and ritual",
+         "cultural_authenticity": "Adherence to traditional forms, meanings, and practices within a culture",
+         "symbolic_representation": "Artistic approach prioritizing cultural meaning over realistic appearance"
+       },
+       "art_categories": {
+         "traditional_art": "Art forms following established cultural practices and beliefs",
+         "contemporary_art": "Modern African art that may blend traditional and global influences",
+         "tourist_art": "Art created primarily for sale to visitors, often simplified or commercialized",
+         "urban_art": "Art forms emerging from city environments, often addressing modern themes"
+       }
+     }
+   },
+  "items": [
+    {
+      "id": "ere-ibeji-yoruba",
+      "title": "Pair of twin figures (ere ibeji)",
+      "type": "artwork",
+      "dateOriginal": "Late 19th / early 20th century",
+      "dateNormalized": {
+        "startYear": 1880,
+        "endYear": 1920,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "19th-20th century",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Wood, pigment, beads, cowries shells",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 8", "slide 25"],
+      "notes": "Figures representing deceased twin children, believed to please the spirit of the deceased and prevent it from harming the living twin. The Yoruba believe twins share one soul.",
+      "cultural_context": {
+        "spiritual_significance": "Yoruba cosmology views twins as special beings sharing one soul, requiring ritual attention after death",
+        "social_function": "Memorial objects that maintain connection between living and deceased twins",
+        "artistic_tradition": "Part of Yoruba sculptural tradition emphasizing spiritual representation over naturalistic portrayal"
+      },
+      "aesthetic_analysis": {
+        "visual_elements": "Stylized human forms with emphasis on head and facial features",
+        "symbolic_meaning": "Carved features represent idealized human form rather than individual likeness",
+        "cultural_aesthetics": "Demonstrates African aesthetic principle of symbolic representation over photographic realism"
+      },
+      "educational_value": {
+        "philosophy_connection": "Illustrates African belief in spiritual continuity and ancestral presence",
+        "aesthetic_principle": "Shows prioritization of cultural meaning over naturalistic representation",
+        "social_context": "Reveals importance of family bonds and spiritual beliefs in Yoruba society"
+      },
+      "keywords": ["sculpture", "spirit", "twin", "funerary art", "Yoruba cosmology", "ancestral art"],
+      "importanceScore": 80,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a proper name with culture, and appears twice in the lecture slides.",
+      "image": "image-of-ere-ibeji.jpg"
+    },
+    {
+      "id": "a-royal-war-tunic-kansawu-fon",
+      "title": "A royal war tunic (kansawu)",
+      "type": "artwork",
+      "dateOriginal": "19th century",
+      "dateNormalized": {
+        "startYear": 1801,
+        "endYear": 1900,
+        "isCentury": true,
+        "precision": "century"
+      },
+      "century": "19th century",
+      "artistOrCulture": "Fon",
+      "locationOrSite": "Republic of Benin",
+      "mediumOrMaterial": "Embroidered cloth",
+      "movementOrPeriod": "Traditional Fon Art",
+      "slideRefs": ["slide 9"],
+      "notes": "A tunic worn by the king and important male and female military leaders during battle.",
+      "cultural_context": {
+        "spiritual_significance": "Royal garments believed to provide spiritual protection in warfare",
+        "social_function": "Symbol of military rank and royal authority in Fon society",
+        "artistic_tradition": "Part of West African textile tradition combining functionality with symbolic decoration"
+      },
+      "aesthetic_analysis": {
+        "visual_elements": "Intricate embroidered patterns with symbolic motifs",
+        "symbolic_meaning": "Decorative elements represent power, protection, and cultural identity",
+        "cultural_aesthetics": "Demonstrates integration of art with practical and ceremonial functions"
+      },
+      "educational_value": {
+        "philosophy_connection": "Shows how African art integrates spiritual beliefs with practical needs",
+        "aesthetic_principle": "Illustrates functionality as key criterion in African aesthetic values",
+        "social_context": "Reveals hierarchical structure and military traditions of Fon kingdom"
+      },
+      "keywords": ["textiles", "regalia", "clothing", "military art", "royal symbolism", "Fon culture"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-kansawu-tunic.jpg"
+    },
+    {
+      "id": "asafo-flag-fante",
+      "title": "Asafo flag",
+      "type": "artwork",
+      "dateOriginal": "colonial period",
+      "dateNormalized": {
+        "startYear": 1887,
+        "endYear": 1887,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "19th century",
+      "artistOrCulture": "Fante",
+      "locationOrSite": "Ghana",
+      "mediumOrMaterial": "Silk appliqué",
+      "movementOrPeriod": "Asafo Art",
+      "slideRefs": ["slide 10"],
+      "notes": "A flag made during the colonial period, one of which was seized during the 1887 conflict at Mumford. The flag depicts a symbolic scene with an elephant and a bird.",
+      "cultural_context": {
+        "spiritual_significance": "Asafo flags serve as spiritual banners protecting military companies",
+        "social_function": "Identity markers for military groups and symbols of resistance during colonial period",
+        "artistic_tradition": "Fante appliqué tradition adapted to express political and military themes"
+      },
+      "aesthetic_analysis": {
+        "visual_elements": "Bold silk appliqué work with symbolic animal imagery",
+        "symbolic_meaning": "Elephant represents strength and wisdom; bird may symbolize messenger or spiritual guide",
+        "cultural_aesthetics": "Demonstrates African use of symbolic narrative in textile art"
+      },
+      "educational_value": {
+        "philosophy_connection": "Shows art as documentation of historical events and cultural resistance",
+        "aesthetic_principle": "Illustrates symbolic storytelling through visual imagery",
+        "social_context": "Reveals impact of colonialism on traditional African military and artistic practices"
+      },
+      "keywords": ["textiles", "military", "colonial period", "flag", "Asafo companies", "resistance art", "appliqué"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, has a specific date and artist/culture, and marks a major historical event.",
+      "image": "image-of-asafo-flag.jpg"
+    },
+    {
+      "id": "beaded-panel-obheshwana-zulu",
+      "title": "Beaded panel (obheshwana)",
+      "type": "artwork",
+      "dateOriginal": "About mid-late 20th century",
+      "dateNormalized": {
+        "startYear": 1940,
+        "endYear": 1970,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Zulu",
+      "locationOrSite": "Nongoma region, South Africa",
+      "mediumOrMaterial": "Glass beads, yarn, plastic thread, cotton thread",
+      "movementOrPeriod": "Traditional Zulu Art",
+      "slideRefs": ["slide 11"],
+      "notes": "Created by young women for their own adornment or as gifts for male suitors.",
+      "cultural_context": {
+        "spiritual_significance": "Beadwork patterns carry messages about identity, status, and relationships",
+        "social_function": "Communication tool in courtship and expression of personal and cultural identity",
+        "artistic_tradition": "Zulu beadwork tradition where women artists create coded messages through color and pattern"
+      },
+      "aesthetic_analysis": {
+        "visual_elements": "Geometric patterns in vibrant glass beads with specific color combinations",
+        "symbolic_meaning": "Colors and patterns convey specific messages about emotions, intentions, and social status",
+        "cultural_aesthetics": "Demonstrates African aesthetic principle of meaningful decoration beyond mere ornamentation"
+      },
+      "educational_value": {
+        "philosophy_connection": "Illustrates art as communication system and expression of cultural values",
+        "aesthetic_principle": "Shows integration of visual pleasure with symbolic meaning",
+        "social_context": "Reveals gender roles and courtship practices in Zulu society"
+      },
+      "keywords": ["beadwork", "adornment", "Zulu culture", "courtship", "symbolic communication", "women artists"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-obheshwana-panel.jpg"
+    },
+    {
+      "id": "basket-buganda",
+      "title": "A basket with a pointed lid",
+      "type": "artwork",
+      "dateOriginal": "1938-39",
+      "dateNormalized": {
+        "startYear": 1938,
+        "endYear": 1939,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Buganda",
+      "locationOrSite": "Uganda",
+      "mediumOrMaterial": "Basketry",
+      "movementOrPeriod": "Traditional Buganda Art",
+      "slideRefs": ["slide 12"],
+      "notes": "The shape complements the cone-shaped roofs and woven substructure of court architecture.",
+      "keywords": ["basketry", "architecture"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a specific date.",
+      "image": "image-of-buganda-basket.jpg"
+    },
+    {
+      "id": "pot-ancestral-spirit-ga-anda",
+      "title": "Pot representing an ancestral spirit",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Ga’anda peoples",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Terracotta",
+      "movementOrPeriod": "Traditional Ga’anda Art",
+      "slideRefs": ["slide 13"],
+      "notes": "A terracotta pot with anthropomorphic features.",
+      "keywords": ["pottery", "spirit", "ancestral art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-ga-anda-pot.jpg"
+    },
+    {
+      "id": "king-oba-edo",
+      "title": "King (oba)",
+      "type": "artwork",
+      "dateOriginal": "1964",
+      "dateNormalized": {
+        "startYear": 1964,
+        "endYear": 1964,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Edo",
+      "locationOrSite": "Kingdom of Benin, Nigeria",
+      "mediumOrMaterial": "Coral regalia",
+      "movementOrPeriod": "Traditional Edo Art",
+      "slideRefs": ["slide 14"],
+      "notes": "A king dressed in coral regalia during a palace ceremony. The coral symbolizes the king's affiliation with Olokun, the god of the waters.",
+      "keywords": ["regalia", "adornment", "Edo Kingdom", "coral"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a specific date and culture.",
+      "image": "image-of-edo-king-regalia.jpg"
+    },
+    {
+      "id": "mask-ngaady-amwash-kuba",
+      "title": "Mask (Ngaady amwash)",
+      "type": "artwork",
+      "dateOriginal": "19th century",
+      "dateNormalized": {
+        "startYear": 1801,
+        "endYear": 1900,
+        "isCentury": true,
+        "precision": "century"
+      },
+      "century": "19th century",
+      "artistOrCulture": "Kuba people",
+      "locationOrSite": "DRC",
+      "mediumOrMaterial": "Pigments, beads, cowrie shells, fiber",
+      "movementOrPeriod": "Traditional Kuba Art",
+      "slideRefs": ["slide 15"],
+      "notes": "One of the three most important royal head pieces for masquerades in Nsheng. It features bold geometric designs representing domesticity.",
+      "keywords": ["masks", "masquerade", "ceremonial art"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-ngaady-amwash-mask.jpg"
+    },
+    {
+      "id": "poro-masquerade",
+      "title": "Poro masquerade",
+      "type": "event",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": null,
+      "locationOrSite": "Liberia, Sierra Leone",
+      "mediumOrMaterial": "Performance",
+      "movementOrPeriod": null,
+      "slideRefs": ["slide 16"],
+      "notes": "A masquerade performed during commemorative funeral rites.",
+      "keywords": ["performance", "masquerade", "funeral rites"],
+      "importanceScore": 10,
+      "likelyExam": false,
+      "whyLikelyExam": "An event with no specific date or culture, making it less likely for a multiple-choice question.",
+      "image": "image-of-poro-masquerade.jpg"
+    },
+    {
+      "id": "painted-house-nubia",
+      "title": "Painted house",
+      "type": "artwork",
+      "dateOriginal": "Photographed 1960s",
+      "dateNormalized": {
+        "startYear": 1960,
+        "endYear": 1969,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Nubia",
+      "locationOrSite": "Southern Egypt",
+      "mediumOrMaterial": "Wall painting",
+      "movementOrPeriod": "Traditional Nubian Art",
+      "slideRefs": ["slide 17"],
+      "notes": "Domestic architecture decorated by women who painted walls with delicate patterns similar to textiles and jewelry.",
+      "keywords": ["wall painting", "domestic art", "architecture"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a proper name with culture, and a date.",
+      "image": "image-of-nubian-painted-house.jpg"
+    },
+    {
+      "id": "atano-shrine-asante",
+      "title": "Atano shrine",
+      "type": "artwork",
+      "dateOriginal": "Photographed 1976",
+      "dateNormalized": {
+        "startYear": 1976,
+        "endYear": 1976,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Asante",
+      "locationOrSite": "Kumasi, Ghana",
+      "mediumOrMaterial": "Assemblage of various materials",
+      "movementOrPeriod": "Traditional Asante Art",
+      "slideRefs": ["slide 18"],
+      "notes": "An altar containing a variety of terracotta sculptures, swords, Akuaba figures, brass bowls and milk tins.",
+      "keywords": ["assemblage", "shrine", "religious art"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a proper name with culture, and a specific date.",
+      "image": "image-of-atano-shrine.jpg"
+    },
+    {
+      "id": "saltcellar-sapi",
+      "title": "Saltcellar",
+      "type": "artwork",
+      "dateOriginal": "16th century, c. 1490-1530",
+      "dateNormalized": {
+        "startYear": 1490,
+        "endYear": 1530,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "16th century",
+      "artistOrCulture": "Sapi-Portuguese",
+      "locationOrSite": "Sierra Leone",
+      "mediumOrMaterial": "Ivory",
+      "movementOrPeriod": "Sapi-Portuguese Ivories",
+      "slideRefs": ["slide 22", "slide 228"],
+      "notes": "A saltcellar, an example of art that attracted the study of African art as an academic discipline.",
+      "keywords": ["sculpture", "ivory", "utilitarian art"],
+      "importanceScore": 80,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a specific date, and a proper name with culture. Appears in two different lecture sections, indicating its importance.",
+      "image": "image-of-sapi-saltcellar.jpg"
+    },
+    {
+      "id": "ancient-mother-figures-senufo",
+      "title": "Ancient Mother Figures",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Senufo",
+      "locationOrSite": "Mali/Ivory Coast",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Traditional Senufo Art",
+      "slideRefs": ["slide 23"],
+      "notes": "Wood carvings of mother figures.",
+      "keywords": ["sculpture", "wood carving"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-senufo-mother-figures.jpg"
+    },
+    {
+      "id": "coffin-ga",
+      "title": "Coffin",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Ga",
+      "locationOrSite": "Accra, Ghana",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Fantasy Coffins",
+      "slideRefs": ["slide 24"],
+      "notes": "A fantasy coffin from Paa Joe's workshop.",
+      "keywords": ["sculpture", "wood", "funerary art", "fantasy coffin"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-ga-coffin.jpg"
+    },
+    {
+      "id": "ntadi-funerary-figure",
+      "title": "Ntadi (funerary figure)",
+      "type": "artwork",
+      "dateOriginal": "19th Century",
+      "dateNormalized": {
+        "startYear": 1801,
+        "endYear": 1900,
+        "isCentury": true,
+        "precision": "century"
+      },
+      "century": "19th century",
+      "artistOrCulture": "Mboma",
+      "locationOrSite": "Unknown",
+      "mediumOrMaterial": "Steatite",
+      "movementOrPeriod": "Traditional Mboma Art",
+      "slideRefs": ["slide 25"],
+      "notes": "A steatite funerary figure.",
+      "keywords": ["sculpture", "funerary art"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a proper name, and a date.",
+      "image": "image-of-ntadi-figure.jpg"
+    },
+    {
+      "id": "lukasa-luba",
+      "title": "Lukasa (initiation emblem)",
+      "type": "artwork",
+      "dateOriginal": "late 19th – 20th century",
+      "dateNormalized": {
+        "startYear": 1880,
+        "endYear": 1920,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "19th-20th century",
+      "artistOrCulture": "Luba",
+      "locationOrSite": "DRC",
+      "mediumOrMaterial": "Wood and beads",
+      "movementOrPeriod": "Traditional Luba Art",
+      "slideRefs": ["slide 25", "slide 77"],
+      "notes": "A memory board used by a royal initiation elite, known as 'men of memory,' to recall a complex body of knowledge during initiation ceremonies.",
+      "keywords": ["sculpture", "emblem", "memory board", "initiation", "beads"],
+      "importanceScore": 80,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide, a proper name with culture, has a high-quality image, and is emphasized as a royal initiation emblem that is repeated across slides.",
+      "image": "image-of-lukasa-memory-board.jpg"
+    },
+    {
+      "id": "kota-reliquary-figure",
+      "title": "Kota Reliquary Figure",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Kota",
+      "locationOrSite": "Gabon",
+      "mediumOrMaterial": "Brass and copper",
+      "movementOrPeriod": "Traditional Kota Art",
+      "slideRefs": ["slide 26"],
+      "notes": "A reliquary figure used to guard ancestral remains.",
+      "keywords": ["sculpture", "reliquary", "metalwork"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-kota-reliquary-figure.jpg"
+    },
+    {
+      "id": "head-of-a-queen-yoruba",
+      "title": "Head of a Queen",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Terracotta",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 64"],
+      "notes": "A terracotta head of a queen.",
+      "keywords": ["sculpture", "terracotta", "royal art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Introduced as a main artwork for a lecture section with a high-quality image and a proper name with culture.",
+      "image": "image-of-yoruba-queen-head.jpg"
+    },
+    {
+      "id": "dance-wand-in-honor-of-eshu-yoruba",
+      "title": "Dance Wand in honor of Eshu",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Wood, indigo dye, beads",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 90"],
+      "notes": "A dance wand for the god Eshu. The aesthetic value of the work is determined by its functionality, symbolic, and visual pleasure.",
+      "keywords": ["sculpture", "religious art", "dance wand", "Eshu"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-eshu-dance-wand.jpg"
+    },
+    {
+      "id": "figure-mumuye",
+      "title": "Figure",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Mumuye",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Traditional Mumuye Art",
+      "slideRefs": ["slide 99"],
+      "notes": "A wooden figure.",
+      "keywords": ["sculpture", "wood carving"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-mumuye-figure.jpg"
+    },
+    {
+      "id": "mother-and-child-asante",
+      "title": "Mother and Child",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Asante, Akan",
+      "locationOrSite": "Ghana",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Traditional Asante Art",
+      "slideRefs": ["slide 105"],
+      "notes": "A wooden sculpture of a mother and child. Asante aesthetic tastes articulate Asante moral and social values.",
+      "keywords": ["sculpture", "wood carving"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-asante-mother-and-child.jpg"
+    },
+    {
+      "id": "cup-kuba",
+      "title": "Cup",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Kuba",
+      "locationOrSite": "DRC",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Traditional Kuba Art",
+      "slideRefs": ["slide 106"],
+      "notes": "A wooden cup.",
+      "keywords": ["sculpture", "wood", "utilitarian art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-kuba-cup.jpg"
+    },
+    {
+      "id": "d-mba-mask-baga",
+      "title": "D’mba Mask",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Baga",
+      "locationOrSite": "Guinea",
+      "mediumOrMaterial": "Wood, copper nails, fabric, fiber",
+      "movementOrPeriod": "Traditional Baga Art",
+      "slideRefs": ["slide 107"],
+      "notes": "A mask used in ceremonies.",
+      "keywords": ["masks", "sculpture", "ceremonial art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-d-mba-mask.jpg"
+    },
+    {
+      "id": "cylindrical-head-yoruba",
+      "title": "Cylindrical Head",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Terracotta",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 200"],
+      "notes": "A terracotta cylindrical head, representing the inner head (ori inu).",
+      "keywords": ["sculpture", "head", "terracotta", "ori inu"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-yoruba-cylindrical-head.jpg"
+    },
+    {
+      "id": "ifa-divination-tray-yoruba",
+      "title": "Ifa Divination Tray",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Wood",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 200"],
+      "notes": "A wooden divination tray used in Ifa rituals. Its aesthetic value is based on form, meaning, function, and visual appeal.",
+      "keywords": ["sculpture", "divination", "ritual art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-ifa-divination-tray.jpg"
+    },
+    {
+      "id": "ritual-vessel-yoruba",
+      "title": "Ritual Vessel",
+      "type": "artwork",
+      "dateOriginal": "THE PAVEMENT PERIOD c. 1000-1400 BC",
+      "dateNormalized": {
+        "startYear": -1400,
+        "endYear": -1000,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "11th-15th century BCE",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Terracotta",
+      "movementOrPeriod": "Pavement Period",
+      "slideRefs": ["slide 201"],
+      "notes": "A terracotta ritual vessel from the Pavement Period.",
+      "keywords": ["pottery", "vessel", "ritual art"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide, has a specific date range, and introduces a major art period.",
+      "image": "image-of-yoruba-ritual-vessel.jpg"
+    },
+    {
+      "id": "head-of-usurper-lajuwa-yoruba",
+      "title": "The head of Usurper Lajuwa",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Ile-Ife Nigeria",
+      "mediumOrMaterial": "Terracotta",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 202"],
+      "notes": "A terracotta head said to represent the Usurper Lajuwa.",
+      "keywords": ["sculpture", "head", "terracotta"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-lajuwa-head.jpg"
+    },
+    {
+      "id": "head-yoruba-brass",
+      "title": "Head",
+      "type": "artwork",
+      "dateOriginal": "The Pavement Period c. 1000-1400 BC",
+      "dateNormalized": {
+        "startYear": -1400,
+        "endYear": -1000,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "11th-15th century BCE",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Brass",
+      "movementOrPeriod": "Pavement Period",
+      "slideRefs": ["slide 204", "slide 208"],
+      "notes": "A brass head from the Pavement Period. Holes around the hairline indicate where attachments were placed.",
+      "keywords": ["sculpture", "head", "brass", "metalwork"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, has a specific date range, and introduces a major art period.",
+      "image": "image-of-yoruba-brass-head.jpg"
+    },
+    {
+      "id": "oba-yoruba-1977",
+      "title": "Oba",
+      "type": "artwork",
+      "dateOriginal": "1977",
+      "dateNormalized": {
+        "startYear": 1977,
+        "endYear": 1977,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": null,
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 209"],
+      "notes": "A photograph of an Oba.",
+      "keywords": ["royal art", "regalia"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a proper name with culture, and a specific date.",
+      "image": "image-of-oba-yoruba.jpg"
+    },
+    {
+      "id": "crown-for-an-oba-yoruba",
+      "title": "Crown (ade) for an oba",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Cloth, Venetian glass beads",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 210"],
+      "notes": "A beaded crown for a Yoruba king (Oba).",
+      "keywords": ["regalia", "crown", "beadwork", "royal art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-yoruba-oba-crown.jpg"
+    },
+    {
+      "id": "chibinda-ilunga-chokwe",
+      "title": "Chibinda Ilunga",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Chokwe",
+      "locationOrSite": "Angola",
+      "mediumOrMaterial": "Sculpture",
+      "movementOrPeriod": "Traditional Chokwe Art",
+      "slideRefs": ["slide 214"],
+      "notes": "A warrior hero of the Chokwe people.",
+      "keywords": ["sculpture", "warrior", "hero"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture.",
+      "image": "image-of-chibinda-ilunga-figure.jpg"
+    },
+    {
+      "id": "egungun-ancestral-spirit",
+      "title": "Egungun, ancestral spirit",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Yoruba",
+      "locationOrSite": "Nigeria",
+      "mediumOrMaterial": "Performance",
+      "movementOrPeriod": "Traditional Yoruba Art",
+      "slideRefs": ["slide 214", "slide 215"],
+      "notes": "Egungun masqueraders represent ancestral spirits. The art form guides the community's laws, beliefs, and values.",
+      "keywords": ["performance", "masquerade", "ancestral spirit"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image and a proper name with culture, and is repeated across slides.",
+      "image": "image-of-egungun-masqueraders.jpg"
+    },
+    {
+      "id": "knife-case-kongo-portuguese",
+      "title": "Knife Case",
+      "type": "artwork",
+      "dateOriginal": "16th century",
+      "dateNormalized": {
+        "startYear": 1501,
+        "endYear": 1600,
+        "isCentury": true,
+        "precision": "century"
+      },
+      "century": "16th century",
+      "artistOrCulture": "Kongo-Portuguese",
+      "locationOrSite": "DRC or Angola",
+      "mediumOrMaterial": "Ivory",
+      "movementOrPeriod": "Kongo Art",
+      "slideRefs": ["slide 226"],
+      "notes": "An ivory knife case.",
+      "keywords": ["ivory", "utilitarian art"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured as a key example that attracted the study of African art as an academic discipline. Has a specific date and culture.",
+      "image": "image-of-kongo-portuguese-knife-case.jpg"
+    },
+    {
+      "id": "lukwakogo-lega",
+      "title": "Lukwakogo, Bwami Society mask",
+      "type": "artwork",
+      "dateOriginal": "Early 20th century",
+      "dateNormalized": {
+        "startYear": 1901,
+        "endYear": 1930,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "20th century",
+      "artistOrCulture": "Lega",
+      "locationOrSite": "Congo",
+      "mediumOrMaterial": "Wood, pigment & fiber",
+      "movementOrPeriod": "Lega Art",
+      "slideRefs": ["slide 226"],
+      "notes": "A mask used by the Bwami Society.",
+      "keywords": ["mask", "ceremonial art"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured as a key example that attracted the study of African art as an academic discipline. Has a specific date and culture.",
+      "image": "image-of-lukwakogo-mask.jpg"
+    },
+    {
+      "id": "textile-kongo-17th-century",
+      "title": "Textile",
+      "type": "artwork",
+      "dateOriginal": "Early 17th century",
+      "dateNormalized": {
+        "startYear": 1601,
+        "endYear": 1630,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "17th century",
+      "artistOrCulture": "Kongo",
+      "locationOrSite": "Unknown",
+      "mediumOrMaterial": "Raffia",
+      "movementOrPeriod": "Kongo Art",
+      "slideRefs": ["slide 227"],
+      "notes": "A textile made from raffia.",
+      "keywords": ["textile", "raffia"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured as a key example that attracted the study of African art as an academic discipline. Has a specific date and culture.",
+      "image": "image-of-kongo-textile.jpg"
+    },
+    {
+      "id": "oliphants-kongo-portuguese",
+      "title": "Oliphants",
+      "type": "artwork",
+      "dateOriginal": "16th century",
+      "dateNormalized": {
+        "startYear": 1501,
+        "endYear": 1600,
+        "isCentury": true,
+        "precision": "century"
+      },
+      "century": "16th century",
+      "artistOrCulture": "Kongo-Portuguese",
+      "locationOrSite": "DRC",
+      "mediumOrMaterial": "Ivory",
+      "movementOrPeriod": "Kongo Art",
+      "slideRefs": ["slide 227"],
+      "notes": "Ivory horns, an example of art that attracted the study of African art as an academic discipline.",
+      "keywords": ["ivory", "musical instrument", "carving"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured as a key example that attracted the study of African art as an academic discipline. Has a specific date and culture.",
+      "image": "image-of-kongo-portuguese-oliphant.jpg"
+    },
+    {
+      "id": "rock-art-tassili",
+      "title": "Rock Art",
+      "type": "artwork",
+      "dateOriginal": "11,000 BC",
+      "dateNormalized": {
+        "startYear": -11000,
+        "endYear": -11000,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "120th century BCE",
+      "artistOrCulture": "Tassili",
+      "locationOrSite": "North Africa",
+      "mediumOrMaterial": "Rock painting and engraving",
+      "movementOrPeriod": "Pre-historic Art",
+      "slideRefs": ["slide 331", "slide 335"],
+      "notes": "Rock art from a geological phase where the Sahara was a fertile savanna.",
+      "keywords": ["rock art", "painting", "pre-historic"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured as a key example and has a specific, early date that marks the beginning of a period, making it a pivotal item for an exam question.",
+      "image": "image-of-tassili-rock-art.jpg"
+    },
+    {
+      "id": "musicians-and-dancers-thebes",
+      "title": "Musicians and Dancers (Banquet Scene)",
+      "type": "artwork",
+      "dateOriginal": null,
+      "dateNormalized": {
+        "startYear": null,
+        "endYear": null,
+        "isCentury": false,
+        "precision": "unknown"
+      },
+      "century": "Unknown",
+      "artistOrCulture": "Nebamun's Tomb, Thebes",
+      "locationOrSite": "Egypt",
+      "mediumOrMaterial": "Fresco secco",
+      "movementOrPeriod": "New Kingdom",
+      "slideRefs": ["slide 384"],
+      "notes": "A wall painting depicting a banquet scene.",
+      "keywords": ["wall painting", "fresco", "tomb art"],
+      "importanceScore": 50,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured with a high-quality image and a proper name with location.",
+      "image": "image-of-thebes-musicians-dancers.jpg"
+    },
+    {
+      "id": "funerary-mask-tutankhamun",
+      "title": "Funerary Mask",
+      "type": "artwork",
+      "dateOriginal": "1323 BC",
+      "dateNormalized": {
+        "startYear": -1323,
+        "endYear": -1323,
+        "isCentury": false,
+        "precision": "year"
+      },
+      "century": "14th century BCE",
+      "artistOrCulture": "Tutankhamun's tomb",
+      "locationOrSite": "Valley of the Kings, Egypt",
+      "mediumOrMaterial": "Gold with inlay of glass and semiprecious stones",
+      "movementOrPeriod": "New Kingdom",
+      "slideRefs": ["slide 384"],
+      "notes": "A funerary mask from Tutankhamun's tomb. Tombs during this period were full of artistic treasures, or grave goods.",
+      "keywords": ["mask", "funerary art", "gold", "Egyptian"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured with a high-quality image, has a specific date, and is a world-renowned canonical artwork.",
+      "image": "image-of-tutankhamun-mask.jpg"
+    },
+    {
+      "id": "diptych-fre-siyon",
+      "title": "Diptych",
+      "type": "artwork",
+      "dateOriginal": "1445-80",
+      "dateNormalized": {
+        "startYear": 1445,
+        "endYear": 1480,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "15th century",
+      "artistOrCulture": "Fre Siyon",
+      "locationOrSite": "Ethiopia",
+      "mediumOrMaterial": "Tempera on Gesso covered wood",
+      "movementOrPeriod": "Solomonic Period",
+      "slideRefs": ["slide 395"],
+      "notes": "A portable two-paneled image that can be closed for transportation and used as a devotional image. The left panel depicts Maryam with the infant Jesus.",
+      "keywords": ["painting", "tempera", "devotional art", "diptych"],
+      "importanceScore": 60,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured with a high-quality image, a specific date range, and a proper name with culture.",
+      "image": "image-of-fre-siyon-diptych.jpg"
+    },
+    {
+      "id": "walls-great-enclosure-great-zimbabwe",
+      "title": "Walls, Great Enclosure",
+      "type": "artwork",
+      "dateOriginal": "1350-1450",
+      "dateNormalized": {
+        "startYear": 1350,
+        "endYear": 1450,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "14th-15th century",
+      "artistOrCulture": "early Shona Culture",
+      "locationOrSite": "Great Zimbabwe, Zimbabwe",
+      "mediumOrMaterial": "Stone",
+      "movementOrPeriod": "Early Shona Culture",
+      "slideRefs": ["slide 456", "slide 458", "slide 459"],
+      "notes": "The largest ancient structure south of the Sahara Desert. The stones were fitted closely together to produce finished surfaces. The walls are as high as 36 feet.",
+      "keywords": ["architecture", "stone", "Great Zimbabwe"],
+      "importanceScore": 80,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, has a specific date range and culture, and is repeated across slides.",
+      "image": "image-of-great-zimbabwe-walls.jpg"
+    },
+    {
+      "id": "nguba-ndebele",
+      "title": "Nguba",
+      "type": "artwork",
+      "dateOriginal": "after the 1940s",
+      "dateNormalized": {
+        "startYear": 1940,
+        "endYear": 2020,
+        "isCentury": false,
+        "precision": "range"
+      },
+      "century": "20th-21st century",
+      "artistOrCulture": "Ndebele",
+      "locationOrSite": "South Africa",
+      "mediumOrMaterial": "Cotton, beads",
+      "movementOrPeriod": "Traditional Ndebele Art",
+      "slideRefs": ["slide 469", "slide 472"],
+      "notes": "A heavily beaded cape worn by married women on festive occasions to communicate her social status, financial resources, and artistic abilities. Designs changed after the 1940s to include a wide range of colors and motifs from everyday life.",
+      "keywords": ["beadwork", "textiles", "adornment"],
+      "importanceScore": 70,
+      "likelyExam": true,
+      "whyLikelyExam": "Featured on an exam-focused slide with a high-quality image, a specific date range, and a proper name with culture, and is repeated across slides.",
+      "image": "image-of-ndebele-nguba.jpg"
+    }
+  ]
+}
