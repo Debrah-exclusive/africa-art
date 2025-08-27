@@ -10,9 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     let colorIndex = 0;
 
-    // Initialize home page features
-    initializeHomePage();
-
     const timelineDiv = document.getElementById('timeline');
     const qaContainer = document.getElementById('questionContainer');
     const sidebar = document.getElementById('sidebar');
@@ -44,6 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 exportCsvBtn.addEventListener('click', exportQuizToCsv);
                 document.getElementById('modeToggle').addEventListener('change', generateQuestion);
             }
+            // Initialize home page features after data is loaded
+            initializeHomePage();
         })
         .catch(error => console.error('Error fetching data:', error));
 
